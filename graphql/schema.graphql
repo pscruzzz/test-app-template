@@ -1,0 +1,8 @@
+type Query {
+  getEmails: [GetEmailsRes]
+}
+
+type GetEmailsRes{
+  email: String
+  type: String
+}
